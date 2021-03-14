@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello Jenkins Developer!" );
+        System.out.println( "Maven Job is running on Build Server!" );
     }
 }
