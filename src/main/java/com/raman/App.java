@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "CICD docker Jenkins-1" );
+        System.out.println( "Changes are done by dev1" );
     }
 }
