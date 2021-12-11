@@ -1,6 +1,6 @@
 ---
  - name: playbook
-   hosts: webservers
+   hosts: 172.31.2.155
    tasks:
     - name: apache is to be installed
       apt:
