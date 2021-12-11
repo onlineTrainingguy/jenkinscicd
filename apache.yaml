@@ -1,0 +1,8 @@
+---
+ - name: playbook
+   hosts: webservers
+   tasks:
+    - name: apache is to be installed
+      apt:
+        name: apache2
+        state: present
