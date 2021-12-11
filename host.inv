@@ -1,2 +1,1 @@
-[webservers]
 172.31.2.155 ansible_user=ubuntu ansible_connection=ssh
