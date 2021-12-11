@@ -2,7 +2,4 @@
  - name: playbook
    hosts: 172.31.2.155
    tasks:
-    - name: apache is to be installed
-      apt:
-        name: apache2
-        state: present
+    - command: date
