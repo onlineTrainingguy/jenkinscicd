@@ -2,5 +2,5 @@
  - name: playbook
    hosts: 172.31.2.155
    tasks:
-    - command: sudo apt update
-    - command: sudo apt install -y apache
+    - command: date
+    
