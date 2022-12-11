@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Maven Testing000 " );
+        System.out.println( "Maven Testing007 " );
     }
 }
