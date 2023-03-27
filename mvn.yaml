@@ -1,0 +1,7 @@
+---
+ - name: install maven
+   hosts: 172.31.3.124
+   tasks:
+     - apt:
+        name: maven
+        state: present
