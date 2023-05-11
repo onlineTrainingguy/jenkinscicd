@@ -1,7 +1,8 @@
 ---
  - name: install maven
-   hosts: 172.31.3.124
+   hosts: webservers
    tasks:
+     - command: apt update
      - apt:
         name: maven
         state: present
