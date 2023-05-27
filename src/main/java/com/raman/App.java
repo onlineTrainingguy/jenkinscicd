@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello from Jenkins-6" );
+        System.out.println( "Welcome to Banking Project!!!" );
     }
 }
