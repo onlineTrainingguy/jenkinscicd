@@ -3,4 +3,4 @@ sudo docker build . -t ramansharma95/prodimg:$BUILD_NUMBER
 sudo docker push ramansharma95/prodimg:$BUILD_NUMBER
 sudo chmod 777 docker.sh
 sudo bash docker.sh
-docker container run -it --name prodcontainer -d ramansharma95/prodimg:$BUILD_NUMBER
+sudo docker container run -it --name prodcontainer -d ramansharma95/prodimg:$BUILD_NUMBER
