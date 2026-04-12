@@ -1,5 +1,5 @@
 ---
- - name: install maven
+ - name: install maven on system
    hosts: webservers
    tasks:
      - command: apt update
