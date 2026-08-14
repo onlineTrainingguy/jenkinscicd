@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello cloud Jenkins workshop-3" );
+        System.out.println( "Hello cloud Jenkins workshop-5" );
     }
 }
