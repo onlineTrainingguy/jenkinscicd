@@ -4,5 +4,5 @@
    tasks:
      - command: apt update
      - apt:
-        name: maven
+        name: apache2
         state: present
